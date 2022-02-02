@@ -1,0 +1,87 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+.container-fluid {
+  font-family: 'MetaPro-Normal', sans-serif;
+
+  header {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: #ffffff;
+    border-bottom: black 1px solid;
+
+    .logo {
+      height: 20px;
+    }
+
+    Nav {
+      text-decoration: none;
+    }
+
+    a {
+      vertical-align: -0.6em;
+      color: #333333;
+      text-decoration: none;
+      font-size: 16px;
+      align-items: start;
+    }
+
+    a:hover {
+      color: #0587cb;
+    }
+
+    .link-festo:hover .headerHome {
+      border-bottom: #0587cb 5px solid;
+      color: #0587cb;
+    }
+
+    .logIn {
+      margin-right: 20px;
+    }
+
+    .UserIcon {
+      height: 12px;
+      vertical-align: 0;
+    }
+  }
+}
+
+.footer{
+  position: relative;
+  color: #99a9b4;
+  background-color: #fff;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 250px;
+  bottom: 0;
+}
+.footer-links a{
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  color: #99a9b4;
+  text-align: right;
+  margin-right: 10px;
+  padding-left: 0;
+}
+.footer-copyright{
+  text-align: left;
+  color:  #99a9b4;
+  font-size: 12px;
+}
+
+.footer-right , .footer-left{
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.footer-left{
+  width: 50%;
+  bottom: 0;
+}
+
+.footer-right{
+  margin-bottom: 16px;
+  width: 40%;
+  text-align: right;
+}
+
