@@ -1,5 +1,5 @@
 import {AuthenticatedTemplate, useIsAuthenticated} from "@azure/msal-react";
-
+import "../../sass/Custom.scss"
 import { NavigationBar } from "../NavigationBar/NavigationBar";
 import Header from "../Header/Header";
 import Main from "../Main/Main";

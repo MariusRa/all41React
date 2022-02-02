@@ -1,9 +1,11 @@
+import "./sass/Custom.scss"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import { MsalProvider } from "@azure/msal-react";
 
 import { PageLayout } from "./Components/PageLayout/PageLayout";
 import Main from "./Components/Main/Main";
+
 
 
 /**

@@ -1,8 +1,11 @@
+import "../../sass/Custom.scss"
 import React from 'react';
+
 const Footer = () =>{
 	return(
-		<footer className="footer">
+		<footer>
 			{/* left footer */}
+			<div className="afooter">
 			<div className="footer-left">
 				<p className="footer-copyright">&copy; {new Date().getFullYear()} Festo Corporation. All Rights Reserved</p>
 			</div>
@@ -14,6 +17,7 @@ const Footer = () =>{
 					<a href="https://www.festo.com/us/en/e/legal/terms-and-conditions-of-sale-id_3747/">Terms and Conditions of Sale</a>
 					<a href="https://www.festo.com/us/en/e/cloud-services-id_129924/">Cloud Services</a>
 				</div>
+			</div>
 			</div>
 		</footer>
 	)

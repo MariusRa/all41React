@@ -21,15 +21,19 @@ export const NavigationBar = () => {
         <>
             <Navbar>
                   <PageLayout>
+                      <div className="link-festo">
+                          <a className="headerHome" href="/home">Home</a>
+                      </div>
                     <AuthenticatedTemplate>
-                        <div>
-                            <a href="/profile">Profile</a>
-                            <a href="/hello">TestAPI</a>
+                        <div className="link-festo">
+                            <a className="headerHome" href="/profile">TestProfile</a>
                         </div>
-
+                        <div className="link-festo">
+                            <a className="headerHome" href="/hello">TestAPI</a>
+                        </div>
                     </AuthenticatedTemplate>
                     <UnauthenticatedTemplate>
-                        <p>You are not signed in! Please sign in.</p>
+
                     </UnauthenticatedTemplate>
                 </PageLayout>
             </Navbar>
