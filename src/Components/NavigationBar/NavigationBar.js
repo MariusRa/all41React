@@ -24,14 +24,14 @@ export const NavigationBar = () => {
                       <div className="link-festo">
                           <a className="headerHome" href="/home">Home</a>
                       </div>
-                    <AuthenticatedTemplate>
+                      {/*<AuthenticatedTemplate>
                         <div className="link-festo">
                             <a className="headerHome" href="/profile">TestProfile</a>
                         </div>
                         <div className="link-festo">
                             <a className="headerHome" href="/hello">TestAPI</a>
                         </div>
-                    </AuthenticatedTemplate>
+                    </AuthenticatedTemplate>*/}
                     <UnauthenticatedTemplate>
 
                     </UnauthenticatedTemplate>

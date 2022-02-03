@@ -16,9 +16,10 @@ export const PageLayout = (props) => {
     return (
         <div className="container-fluid">
             <Header />
-            <AuthenticatedTemplate>
+            {/*<AuthenticatedTemplate>
                 <Main />
-            </AuthenticatedTemplate>
+            </AuthenticatedTemplate>*/}
+                <Main/>
             <Footer />
         </div>
     )}
